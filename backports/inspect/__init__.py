@@ -7,6 +7,9 @@ from inspect import *
 # re-export :mod:`funcsigs` for :class:`Signature` objects
 from funcsigs import *
 
+# :func:`funcsigs.formatannotation` is not in `funcsigs.__all__`
+from funcsigs import formatannotation
+
 # borrowed from Python 3.3's inspect.py
 FullArgSpec = namedtuple('FullArgSpec',
     'args, varargs, varkw, defaults, kwonlyargs, kwonlydefaults, annotations')
