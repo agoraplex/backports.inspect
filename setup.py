@@ -1,8 +1,4 @@
-from distribute_setup import use_setuptools
-use_setuptools()
-
 from setuptools import setup
-
 
 setup(
     name='backports',
@@ -15,6 +11,6 @@ setup(
     license='See LICENSE',
     description='',
     long_description=open('README.rst').read(),
-    install_requires=['funcsigs>=0.2'],
+    install_requires=['distribute', 'funcsigs>=0.2'],
     tests_require=['nose>=1.2.1'],
 )
