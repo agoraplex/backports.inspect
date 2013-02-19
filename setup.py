@@ -11,8 +11,9 @@ setup(
     license='BSD',
     description='Backport (some) Python 3 `inspect` module features to 2.7 (extending aliles/funcsigs)',
     long_description=open('README.rst').read(),
+
     packages=[
-        'backports.inspect',
+        'backports',
         ],
     namespace_packages=[
         'backports',
