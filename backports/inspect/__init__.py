@@ -1,5 +1,6 @@
 # backports.inspect : backports of Python 3's inspect module
 from copy import copy
+from collections import namedtuple
 
 # re-export the public API from ``inspect`` (which is noisy!)
 from inspect import *
