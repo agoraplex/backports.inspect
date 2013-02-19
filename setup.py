@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='backports.inspect',
-    version='0.0.0',
+    version='0.0.1',
 
     author='Tripp Lilley',
     author_email='tripplilley@gmail.com',
@@ -24,5 +24,13 @@ setup(
         'funcsigs==0.2',
         ],
     tests_require=[
+        ],
+
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 2.7",
+        "Topic :: Software Development :: Libraries :: Python Modules",
         ],
 )
