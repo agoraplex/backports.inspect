@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 # backports.inspect : backports of Python 3's inspect module
 from copy import copy
 from collections import namedtuple
