@@ -23,6 +23,5 @@ setup(
         'funcsigs==0.2',
         ],
     tests_require=[
-        'nose>=1.2.1',
         ],
 )
