@@ -4,6 +4,11 @@ LICENSE
 Copyright (c) 2013, Tripp Lilley <tripplilley@gmail.com>
 All rights reserved.
 
+Portions of `backports/inspect.py` are derived from the Python 3.3
+`inspect.py`. Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007,
+2008, 2009, 2010, 2011, 2012, 2013, 2014 Python Software Foundation;
+All Rights Reserved.
+
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
