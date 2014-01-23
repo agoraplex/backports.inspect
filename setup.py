@@ -21,7 +21,7 @@ setup(
 
     install_requires=[
         'distribute',
-        'funcsigs==0.2',
+        'funcsigs>=0.4',
         ],
     tests_require=[
         ],

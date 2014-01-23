@@ -6,11 +6,7 @@ This is a backport of (some) `Python 3 inspect module`_ features to
 2.7 (piggybacking on `aliles/funcsigs`_).
 
 **NOTE:** While `aliles/funcsigs`_ targets Python 2.6 *and* 2.7,
-  `backports.inspect` *only* targets 2.7.
-
-**NOTE:** This module monkeypatches `formatannotation` in
-`aliles/funcsigs`_ to fix a small bug. This will go away once `our
-pull request`_ is integrated.
+`backports.inspect` *only* targets 2.7.
 
 **BUGS:** There are currently no unit tests :-( ...which must mean
 there are no bugs! :-) We welcome issues to expose this assertion as

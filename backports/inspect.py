@@ -10,18 +10,6 @@ from inspect import *
 # re-export :mod:`funcsigs` for :class:`Signature` objects
 from funcsigs import *
 
-# monkey-patch the broken :func:`funcsigs.formatannotation` to handle
-# builtins in 2.x (see https://github.com/aliles/funcsigs/pull/1 ).
-# **NOTE:** this hack will go away once (if?) that pull request is
-# integrated into :mod:`funcsigs`.
-def formatannotation(annotation, base_module=None):
-    if isinstance(annotation, type):
-        if annotation.__module__ in ('builtins', '__builtin__', base_module):
-            return annotation.__name__
-        return annotation.__module__+'.'+annotation.__name__
-    return repr(annotation)
-__import__('funcsigs').formatannotation = formatannotation
-
 # borrowed from Python 3.3's inspect.py
 FullArgSpec = namedtuple('FullArgSpec',
     'args, varargs, varkw, defaults, kwonlyargs, kwonlydefaults, annotations')
