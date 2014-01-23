@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='backports.inspect',
-    version='0.0.2',
+    version='0.0.3',
 
     author='Tripp Lilley',
     author_email='tripplilley@gmail.com',
