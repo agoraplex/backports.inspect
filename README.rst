@@ -2,6 +2,10 @@
 `backports.inspect`_
 ====================
 
+.. image:: https://pypip.in/version/backports.inspect/badge.svg?style=flat
+    :target: https://pypi.python.org/pypi/backports.inspect/
+    :alt: Latest Version
+
 This is a backport of (some) `Python 3.3 inspect module`_ features to
 2.7 (piggybacking on `aliles/funcsigs`_).
 
