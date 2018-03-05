@@ -2,7 +2,7 @@
 `backports.inspect`_
 ====================
 
-.. image:: https://pypip.in/version/backports.inspect/badge.svg?style=flat
+.. image:: https://img.shields.io/pypi/v/backports.inspect.svg?style=flat
     :target: https://pypi.python.org/pypi/backports.inspect/
     :alt: Latest Version
 
